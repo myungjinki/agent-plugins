@@ -29,3 +29,4 @@ Claude Code와 Codex 사용자가 마켓플레이스 하나로 받아 쓰는 공
 - [docs](docs/README.md): `docs/` 폴더의 용도
 - [작업 지침](AGENTS.md): 에이전트가 따르는 저장소 규칙
 - [변경 기록](LANDED.md): 끝나거나 취소한 할 일
+- [흐름 보고](docs/reports/): `docs/reports/<모드>/<기간>/report.md`(예: `daily/2026-11-18/`). 과거 보고는 지금의 `STATE.md`와 다를 수 있다

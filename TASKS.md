@@ -17,6 +17,7 @@
 | T-1 | 할 일 | `TODO.md`의 남은 항목을 `TASKS.md`로 옮기고(`T-번호`·`차례` 붙이기) `TODO.md`를 지운다 | AI |
 | T-2 | 문서 | 공개 저장소의 라이선스를 정해 `LICENSE`를 더하고 `README.md`에서 가리킨다 | 사용자: 어떤 라이선스로 공개할지 정한다 |
 | T-3 | 문서 | `docs/README.md`의 용도 설명은 `README.md` '문서' 구역으로 옮겼다. `docs/README.md`를 지우고 '문서' 목록의 그 줄을 지운다 | 사용자: 지워도 되는지 정한다 |
+| T-5 | 문서 | README·AGENTS·`docs/`에서 다른 저장소를 `../projects-private/` 같은 분류 폴더 경로나 그 상대 링크(`../../role-ai-engineer` 등)로 부르는 곳을 저장소 이름으로 바꾼다. 링크가 필요하면 GitHub URL을 쓰고, 코드·설정 값과 `LANDED.md`·저장한 보고는 그대로 둔다. 기준은 [다른 저장소를 부르는 법](https://github.com/myungjinki/chief-executive-officer/blob/main/docs/repository-types.md#다른-저장소를-부르는-법)이다. README·AGENTS·`docs/`에 그런 경로가 코드·설정 값에만 남으면 끝난다 | AI |
 
 ## 주기적
 
