@@ -4,6 +4,7 @@
 
 | 번호 | 날짜 | 바뀐 것 |
 |---|---|---|
+| PAGE-1 | 2026-11-19 | `TODO.md`의 남은 두 항목을 `TASKS.md`의 PAGE-7·PAGE-8로 옮기고 `TODO.md`를 지웠다 |
 | PAGE-6 | 2026-11-19 | 할 일 번호를 `T-n`에서 티커를 붙인 `PAGE-n`으로 바꿨다 |
 | PAGE-4 | 2026-11-16 | `AGENTS.md` '작업 흐름'에서 푸시를 막는 규칙 줄을 지웠다 |
 | - | 2026-11-12 | `TASKS.md`·`STATE.md`·`docs/README.md`·`LANDED.md`를 만들었다 |

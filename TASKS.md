@@ -14,10 +14,11 @@
 
 | 번호 | 구분 | 할 일 | 차례 |
 |---|---|---|---|
-| PAGE-1 | 할 일 | `TODO.md`의 남은 항목을 `TASKS.md`로 옮기고(`PAGE-번호`·`차례` 붙이기) `TODO.md`를 지운다 | AI |
 | PAGE-2 | 문서 | 공개 저장소의 라이선스를 정해 `LICENSE`를 더하고 `README.md`에서 가리킨다 | 사용자: 어떤 라이선스로 공개할지 정한다 |
 | PAGE-3 | 문서 | `docs/README.md`의 용도 설명은 `README.md` '문서' 구역으로 옮겼다. `docs/README.md`를 지우고 '문서' 목록의 그 줄을 지운다 | 사용자: 지워도 되는지 정한다 |
 | PAGE-5 | 문서 | README·AGENTS·`docs/`에서 다른 저장소를 `../projects-private/` 같은 분류 폴더 경로나 그 상대 링크(`../../role-ai-engineer` 등)로 부르는 곳을 저장소 이름으로 바꾼다. 링크가 필요하면 GitHub URL을 쓰고, 코드·설정 값과 `LANDED.md`·저장한 보고는 그대로 둔다. 기준은 [다른 저장소를 부르는 법](https://github.com/myungjinki/chief-executive-officer/blob/main/docs/repository-types.md#다른-저장소를-부르는-법)이다. README·AGENTS·`docs/`에 그런 경로가 코드·설정 값에만 남으면 끝난다 | AI |
+| PAGE-7 | codyssey-final-check | 서비스 검증 기능을 만든다: 배포 서비스 접속, 기능별 3회 시도, 표에 없는 입력 1건, 잘못된 입력 2건. 플러그인 README '사용법' 표에서 `서비스 검증`이 '사용 가능'이 되면 끝난다 | AI |
+| PAGE-8 | codyssey-final-check | G1의 README 필수 5개 항목 목록을 받아 스킬에 넣는다. G1 점검이 그 5개 항목을 확인하면 끝난다 | 사용자: 필수 5개 항목 목록을 준다 |
 
 ## 주기적
 
