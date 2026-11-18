@@ -1,0 +1,310 @@
+{
+  "criteria_version": "flow-report/3",
+  "schema_version": 3,
+  "date": "2026-11-18",
+  "collected_at": "2026-11-18T20:38:15.277608+09:00",
+  "timezone": "Asia/Seoul",
+  "status": "final",
+  "root": "C:\\Users\\myung\\Downloads\\github-repos\\projects-public\\agent-plugins",
+  "report_folder": "C:\\Users\\myung\\Downloads\\github-repos\\projects-public\\agent-plugins\\docs\\reports\\daily\\2026-11-18",
+  "scope": [
+    "agent-plugins"
+  ],
+  "sources": [
+    {
+      "path": "C:\\Users\\myung\\Downloads\\github-repos\\projects-public\\agent-plugins\\README.md",
+      "sha256": "b3104d9492565449d114bfc6bd717b38fae3b898dd337b5e44b5b485131530de"
+    }
+  ],
+  "issues": [],
+  "positions": [
+    {
+      "repo": "agent-plugins",
+      "root": "C:\\Users\\myung\\Downloads\\github-repos\\projects-public\\agent-plugins",
+      "items": [
+        {
+          "id": "T-1",
+          "line": 17,
+          "text": "`TODO.md`의 남은 항목을 `TASKS.md`로 옮기고(`T-번호`·`차례` 붙이기) `TODO.md`를 지운다",
+          "turn": "AI",
+          "category": "ai",
+          "condition": null,
+          "wait_since": null,
+          "deadline": null,
+          "condition_date": null,
+          "repo": "agent-plugins",
+          "root": "C:\\Users\\myung\\Downloads\\github-repos\\projects-public\\agent-plugins",
+          "deadline_overdue": false,
+          "condition_arrived": false,
+          "wait_age": "미기록"
+        },
+        {
+          "id": "T-2",
+          "line": 18,
+          "text": "공개 저장소의 라이선스를 정해 `LICENSE`를 더하고 `README.md`에서 가리킨다",
+          "turn": "사용자: 어떤 라이선스로 공개할지 정한다",
+          "category": "user",
+          "condition": "어떤 라이선스로 공개할지 정한다",
+          "wait_since": null,
+          "deadline": null,
+          "condition_date": null,
+          "repo": "agent-plugins",
+          "root": "C:\\Users\\myung\\Downloads\\github-repos\\projects-public\\agent-plugins",
+          "deadline_overdue": false,
+          "condition_arrived": false,
+          "wait_age": "미기록"
+        },
+        {
+          "id": "T-3",
+          "line": 19,
+          "text": "`docs/README.md`의 용도 설명은 `README.md` '문서' 구역으로 옮겼다. `docs/README.md`를 지우고 '문서' 목록의 그 줄을 지운다",
+          "turn": "사용자: 지워도 되는지 정한다",
+          "category": "user",
+          "condition": "지워도 되는지 정한다",
+          "wait_since": null,
+          "deadline": null,
+          "condition_date": null,
+          "repo": "agent-plugins",
+          "root": "C:\\Users\\myung\\Downloads\\github-repos\\projects-public\\agent-plugins",
+          "deadline_overdue": false,
+          "condition_arrived": false,
+          "wait_age": "미기록"
+        }
+      ],
+      "counts": {
+        "ai": 1,
+        "user": 2,
+        "condition": 0,
+        "other": 0
+      },
+      "remaining": 3,
+      "active": 0,
+      "records": [
+        {
+          "id": "T-4",
+          "date": "2026-11-16",
+          "text": "`AGENTS.md` '작업 흐름'에서 푸시를 막는 규칙 줄을 지웠다",
+          "line": 7,
+          "status": "completed"
+        }
+      ],
+      "completion_source_known": true,
+      "completion_known": true,
+      "completed": 1,
+      "periodic": [
+        {
+          "line": 27,
+          "text": "README 점검",
+          "cycle": "매월",
+          "last": "2026-11-16",
+          "deferred": null,
+          "due": "2026-12-16",
+          "status": "아직 도래 안 함"
+        }
+      ],
+      "state_verified": null,
+      "sources": [
+        {
+          "path": "C:\\Users\\myung\\Downloads\\github-repos\\projects-public\\agent-plugins\\TASKS.md",
+          "sha256": "2cab624e626e6bafce1cfa63336895003b8a584abf53b4ddbc2db7c2b2e5eddb"
+        },
+        {
+          "path": "C:\\Users\\myung\\Downloads\\github-repos\\projects-public\\agent-plugins\\STATE.md",
+          "sha256": "30bad12707e94d6c6dcb38c60f76a13ceed9fff7ff33cc24261ac1687b2bb5a2"
+        },
+        {
+          "path": "C:\\Users\\myung\\Downloads\\github-repos\\projects-public\\agent-plugins\\AGENTS.md",
+          "sha256": "89832c15672c0b61c90296d85d3d84dc401d39481628769b0addefa4eb3360db"
+        },
+        {
+          "path": "C:\\Users\\myung\\Downloads\\github-repos\\projects-public\\agent-plugins\\LANDED.md",
+          "sha256": "7293a8f3987b6e429584ecfbbbcecac630663e9e5eb55c64b560da67e19cc0c9"
+        }
+      ],
+      "issues": [],
+      "source_kind": "direct",
+      "source": "직접 수집",
+      "child_report": null,
+      "request": null,
+      "repo_keys": [
+        "C:\\Users\\myung\\Downloads\\github-repos\\projects-public\\agent-plugins"
+      ],
+      "period_completion": {
+        "completed": 0,
+        "confirmed_completed": 0,
+        "completion_source": "현재 읽은 LANDED.md; 기록된 실적 기준"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "key": "C:\\Users\\myung\\Downloads\\github-repos\\projects-public\\agent-plugins",
+      "repo": "agent-plugins",
+      "root": "C:\\Users\\myung\\Downloads\\github-repos\\projects-public\\agent-plugins",
+      "counts": {
+        "ai": 1,
+        "user": 2,
+        "condition": 0,
+        "other": 0
+      },
+      "remaining": 3,
+      "active": 0,
+      "completion_source_known": true,
+      "known_until": null,
+      "records": [
+        {
+          "id": "T-4",
+          "date": "2026-11-16",
+          "status": "completed"
+        }
+      ],
+      "source": "직접 수집",
+      "period_completion": {
+        "completed": 0,
+        "confirmed_completed": 0,
+        "completion_source": "현재 읽은 LANDED.md; 기록된 실적 기준"
+      }
+    }
+  ],
+  "totals": {
+    "counts": {
+      "ai": 1,
+      "user": 2,
+      "condition": 0,
+      "other": 0
+    },
+    "partial": false,
+    "active": 0,
+    "active_partial": false
+  },
+  "mode": "daily",
+  "period": {
+    "id": "2026-11-18",
+    "start": "2026-11-18",
+    "end": "2026-11-18",
+    "reference_date": "2026-11-18",
+    "incomplete": false
+  },
+  "reference_date": "2026-11-18",
+  "snapshot_date": "2026-11-18",
+  "snapshot_note": "현황은 실제 수집 시점의 상태이며 요청 기간의 과거 상태가 아니다.",
+  "period_completion": {
+    "completed": 0,
+    "confirmed_completed": 0,
+    "completion_source": "현재 읽은 LANDED.md; 기록된 실적 기준",
+    "start": "2026-11-18",
+    "end": "2026-11-18",
+    "incomplete": false
+  },
+  "trend": [
+    {
+      "date": "2026-11-12",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "completed": 0,
+      "confirmed_completed": 0,
+      "completion_source": "현재 읽은 LANDED.md; 기록된 실적 기준",
+      "waiting": null,
+      "observed_date": null,
+      "waiting_source": "미기록",
+      "status": "집계 구간"
+    },
+    {
+      "date": "2026-11-13",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "completed": 0,
+      "confirmed_completed": 0,
+      "completion_source": "현재 읽은 LANDED.md; 기록된 실적 기준",
+      "waiting": null,
+      "observed_date": null,
+      "waiting_source": "미기록",
+      "status": "집계 구간"
+    },
+    {
+      "date": "2026-11-14",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "completed": 0,
+      "confirmed_completed": 0,
+      "completion_source": "현재 읽은 LANDED.md; 기록된 실적 기준",
+      "waiting": null,
+      "observed_date": null,
+      "waiting_source": "미기록",
+      "status": "집계 구간"
+    },
+    {
+      "date": "2026-11-15",
+      "start": "2026-11-15",
+      "end": "2026-11-15",
+      "completed": 0,
+      "confirmed_completed": 0,
+      "completion_source": "현재 읽은 LANDED.md; 기록된 실적 기준",
+      "waiting": null,
+      "observed_date": null,
+      "waiting_source": "미기록",
+      "status": "집계 구간"
+    },
+    {
+      "date": "2026-11-16",
+      "start": "2026-11-16",
+      "end": "2026-11-16",
+      "completed": 1,
+      "confirmed_completed": 1,
+      "completion_source": "현재 읽은 LANDED.md; 기록된 실적 기준",
+      "waiting": null,
+      "observed_date": null,
+      "waiting_source": "미기록",
+      "status": "집계 구간"
+    },
+    {
+      "date": "2026-11-17",
+      "start": "2026-11-17",
+      "end": "2026-11-17",
+      "completed": 0,
+      "confirmed_completed": 0,
+      "completion_source": "현재 읽은 LANDED.md; 기록된 실적 기준",
+      "waiting": null,
+      "observed_date": null,
+      "waiting_source": "미기록",
+      "status": "집계 구간"
+    },
+    {
+      "date": "2026-11-18",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "completed": 0,
+      "confirmed_completed": 0,
+      "completion_source": "현재 읽은 LANDED.md; 기록된 실적 기준",
+      "waiting": 2,
+      "observed_date": "2026-11-18",
+      "waiting_source": "당일 수집",
+      "status": "집계 구간"
+    }
+  ],
+  "previous_date": null,
+  "comparison": null,
+  "analysis": {
+    "summary": "agent-plugins 저장소 하나만 직접 수집했다(README에 '포지션별 역할'·'관리하는 저장소' 표가 없어 하위 저장소 없음). 남은 일회성 일은 3건(AI 1, 사용자 대기 2, 조건 0, 기타 0), 진행 중 0행이다. 기준일 2026-11-18 당일 완료는 0건이고 최근 7일 완료는 2026-11-16의 T-4 1건이다([LANDED.md](../../../../LANDED.md)). 가장 큰 진척은 푸시 금지 규칙 삭제(T-4)와 2026-11-17 `orca.yaml` 추가(번호 없는 일, 커밋 50527a4)이며, 가장 큰 막힘은 라이선스 결정(T-2) 대기다. 확인 한계: 이전 일간 보고가 없어 비교와 6일간 대기 잔량은 미기록이고, 대기 시작일이 원문에 없어 대기 기간도 미기록이다. 현황은 2026-11-18 20:37 KST 수집 시점 기준이다.",
+    "positions": {
+      "agent-plugins": "결과: `codyssey-final-check` 저장소 점검(`all`, `G1`~`G7`)은 사용 가능, 서비스 검증은 준비 중([STATE.md](../../../../STATE.md), [plan.md](../../../../docs/plan.md)). 최근 완료는 T-4(2026-11-16, `AGENTS.md` 푸시 금지 줄 삭제, 커밋 5560e03). 검증 근거: 이 보고 커밋에서 `claude plugin validate .`를 실행한다. 이전 작업의 검증 기록은 원문에 따로 없다(미기록). 집중 업무: STATE '진행 중'이 비어 있어 잡은 일 없음(실행 세션 부재를 단정하지 않음). 다음 행동: T-1 — [TODO.md](../../../../TODO.md)가 아직 남아 있고 서비스 검증 기능·G1 README 필수 항목 반영 2건이 번호 없이 머물러 있어 [TASKS.md](../../../../TASKS.md)로 옮겨야 한다. 주기 'README 점검'(매월)은 마지막 2026-11-16, 다음 2026-12-16으로 아직 도래 안 함(단, TODO.md 주기 표에는 '아직 안 함'으로 남아 있어 T-1에서 정리 필요). 최신성: 명시된 상태 확인일 미기록, 마지막 커밋 2026-11-17."
+    },
+    "blockers": "사용자 입력: (1) T-2 라이선스 미정 — 사용자가 공개 라이선스를 정하면 풀린다([TASKS.md](../../../../TASKS.md), [plan.md](../../../../docs/plan.md) '정할 것'). (2) T-3 `docs/README.md` 삭제 여부 — 사용자가 지워도 된다고 정하면 풀린다. 선행 조건(대기:) 막힘: 없음(원문에 `대기:` 항목 0건). 기록 부족: 두 사용자 대기 항목 모두 대기 시작일 미기록, [TODO.md](../../../../TODO.md)의 2건은 T-번호가 없어 집계되지 않음(T-1 완료 시 해소).",
+    "decisions": "1. 공개 라이선스 선택(T-2). 2. `docs/README.md` 삭제 허용 여부(T-3). 근거: [TASKS.md](../../../../TASKS.md) 차례 칸.",
+    "priorities": "제안: 1) T-1(AI) — 바로 할 수 있고, TODO.md에 숨은 2건이 TASKS에 올라와야 서비스 검증 단계([plan.md](../../../../docs/plan.md))의 차례가 보인다. 2) T-2 라이선스 결정(사용자) — 공개 저장소의 재배포 조건이 정해지지 않았다. 3) T-3 결정(사용자) — 문서 중복 정리, 영향 작음. 이 제안은 실행 지시가 아니다.",
+    "report_context": {
+      "mode": "daily",
+      "period_id": "2026-11-18",
+      "reference_date": "2026-11-18",
+      "report_folder": "C:\\Users\\myung\\Downloads\\github-repos\\projects-public\\agent-plugins\\docs\\reports\\daily\\2026-11-18"
+    },
+    "source_hashes": {
+      "C:\\Users\\myung\\Downloads\\github-repos\\projects-public\\agent-plugins\\README.md": "b3104d9492565449d114bfc6bd717b38fae3b898dd337b5e44b5b485131530de",
+      "C:\\Users\\myung\\Downloads\\github-repos\\projects-public\\agent-plugins\\TASKS.md": "2cab624e626e6bafce1cfa63336895003b8a584abf53b4ddbc2db7c2b2e5eddb",
+      "C:\\Users\\myung\\Downloads\\github-repos\\projects-public\\agent-plugins\\STATE.md": "30bad12707e94d6c6dcb38c60f76a13ceed9fff7ff33cc24261ac1687b2bb5a2",
+      "C:\\Users\\myung\\Downloads\\github-repos\\projects-public\\agent-plugins\\AGENTS.md": "89832c15672c0b61c90296d85d3d84dc401d39481628769b0addefa4eb3360db",
+      "C:\\Users\\myung\\Downloads\\github-repos\\projects-public\\agent-plugins\\LANDED.md": "7293a8f3987b6e429584ecfbbbcecac630663e9e5eb55c64b560da67e19cc0c9"
+    }
+  },
+  "correction": null
+}
