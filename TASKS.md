@@ -2,11 +2,11 @@
 
 ## 일회성
 
-항목마다 `T-번호`를 붙인다. 새 번호는 이 파일과 [LANDED.md](LANDED.md)에서 가장 큰 번호에 1을 더하고, 지운 번호는 다시 쓰지 않는다. 끝나면 표에서 지우고 `LANDED.md` 맨 위에 번호와 함께 한 줄 더한 뒤, 커밋 메시지 끝에 `(T-n)`을 붙여 커밋한다.
+이 저장소의 티커는 PAGE다. 항목마다 `PAGE-번호`를 붙인다. 새 번호는 이 파일과 [LANDED.md](LANDED.md)에서 가장 큰 번호에 1을 더하고, 지운 번호는 다시 쓰지 않는다. 끝나면 표에서 지우고 `LANDED.md` 맨 위에 번호와 함께 한 줄 더한 뒤, 커밋 메시지 끝에 `(PAGE-n)`을 붙여 커밋한다.
 
 사용자가 바로 시킨 일은 이번 세션에 끝내면 여기에 올리지 않고 커밋만 한다. 끝내지 못하면 여기에 올린다. 필요 없어져 취소하면 표에서 지우고 `LANDED.md` 맨 위에 번호와 취소 이유를 한 줄 더한다.
 
-'할 일' 칸에는 무엇이 되면 끝인지까지 적는다. 한 칸에 담기 어려우면 표 아래에 `### T-번호` 제목으로 배경과 끝난 조건을 적고, 항목을 표에서 지울 때 함께 지운다.
+'할 일' 칸에는 무엇이 되면 끝인지까지 적는다. 한 칸에 담기 어려우면 표 아래에 `### 번호` 제목(예: `### PAGE-1`)으로 배경과 끝난 조건을 적고, 항목을 표에서 지울 때 함께 지운다.
 
 위에 있는 항목이 먼저다. 일을 잡으면 항목을 남기고 [STATE.md](STATE.md) '진행 중'에 적는다. '진행 중'에 있는 일은 다른 세션이 잡지 않는다.
 
@@ -14,11 +14,10 @@
 
 | 번호 | 구분 | 할 일 | 차례 |
 |---|---|---|---|
-| PAGE-6 | 번호 | 할 일 번호를 `T-n`에서 `PAGE-n`으로 바꾼다. `TASKS.md` 머리말에 티커 `PAGE`를 적고 번호 규칙을 `PAGE-번호`로 고친다(양식은 `gg-template` 기본 `TASKS.md`). `TASKS`·`LANDED`·`STATE`·README·AGENTS·`docs/`의 이 저장소 `T-n`은 `PAGE-n`으로, 다른 저장소의 번호는 역할 표에서 저장소 목록을 맡은 곳의 `docs/repo-list.md`의 티커로 바꾼다. AGENTS 커밋 규칙의 `(T-n)`은 티커 없이 끝낸 할 일의 번호를 붙인다고 쓴다. 커밋 메시지와 `docs/reports/`는 그대로 둔다. `grep`으로 `T-[0-9]`가 당시 결정을 적은 기록 말고는 남지 않고 커밋하면 끝난다 | AI |
-| T-1 | 할 일 | `TODO.md`의 남은 항목을 `TASKS.md`로 옮기고(`T-번호`·`차례` 붙이기) `TODO.md`를 지운다 | AI |
-| T-2 | 문서 | 공개 저장소의 라이선스를 정해 `LICENSE`를 더하고 `README.md`에서 가리킨다 | 사용자: 어떤 라이선스로 공개할지 정한다 |
-| T-3 | 문서 | `docs/README.md`의 용도 설명은 `README.md` '문서' 구역으로 옮겼다. `docs/README.md`를 지우고 '문서' 목록의 그 줄을 지운다 | 사용자: 지워도 되는지 정한다 |
-| T-5 | 문서 | README·AGENTS·`docs/`에서 다른 저장소를 `../projects-private/` 같은 분류 폴더 경로나 그 상대 링크(`../../role-ai-engineer` 등)로 부르는 곳을 저장소 이름으로 바꾼다. 링크가 필요하면 GitHub URL을 쓰고, 코드·설정 값과 `LANDED.md`·저장한 보고는 그대로 둔다. 기준은 [다른 저장소를 부르는 법](https://github.com/myungjinki/chief-executive-officer/blob/main/docs/repository-types.md#다른-저장소를-부르는-법)이다. README·AGENTS·`docs/`에 그런 경로가 코드·설정 값에만 남으면 끝난다 | AI |
+| PAGE-1 | 할 일 | `TODO.md`의 남은 항목을 `TASKS.md`로 옮기고(`PAGE-번호`·`차례` 붙이기) `TODO.md`를 지운다 | AI |
+| PAGE-2 | 문서 | 공개 저장소의 라이선스를 정해 `LICENSE`를 더하고 `README.md`에서 가리킨다 | 사용자: 어떤 라이선스로 공개할지 정한다 |
+| PAGE-3 | 문서 | `docs/README.md`의 용도 설명은 `README.md` '문서' 구역으로 옮겼다. `docs/README.md`를 지우고 '문서' 목록의 그 줄을 지운다 | 사용자: 지워도 되는지 정한다 |
+| PAGE-5 | 문서 | README·AGENTS·`docs/`에서 다른 저장소를 `../projects-private/` 같은 분류 폴더 경로나 그 상대 링크(`../../role-ai-engineer` 등)로 부르는 곳을 저장소 이름으로 바꾼다. 링크가 필요하면 GitHub URL을 쓰고, 코드·설정 값과 `LANDED.md`·저장한 보고는 그대로 둔다. 기준은 [다른 저장소를 부르는 법](https://github.com/myungjinki/chief-executive-officer/blob/main/docs/repository-types.md#다른-저장소를-부르는-법)이다. README·AGENTS·`docs/`에 그런 경로가 코드·설정 값에만 남으면 끝난다 | AI |
 
 ## 주기적
 
