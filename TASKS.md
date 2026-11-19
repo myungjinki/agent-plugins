@@ -16,6 +16,7 @@
 
 | 번호 | 구분 | 할 일 | 등급 | 차례 |
 |---|---|---|---|---|
+| PAGE-10 | 지침 | 공통 양식(`gg-template` 0.38.1 이상) `AGENTS.md` '할 일'의 줄 "일을 잡을 때 항목의 `등급`과 지금 세션 모델의 등급을 비교해 [AI 사용 전략](https://github.com/myungjinki/role-ai-engineer/blob/main/docs/ai-strategy.md#맡기는-법)의 '맡기는 법'을 따른다."를 이 저장소 `AGENTS.md`의 할 일 규칙 자리에 합친다. 모델 이름은 적지 않는다. 합쳐 커밋하면 끝난다 | 중 | AI |
 | PAGE-2 | 문서 | 공개 저장소의 라이선스를 정해 `LICENSE`를 더하고 `README.md`에서 가리킨다 | - | 사용자: 어떤 라이선스로 공개할지 정한다 |
 | PAGE-3 | 문서 | `docs/README.md`의 용도 설명은 `README.md` '문서' 구역으로 옮겼다. `docs/README.md`를 지우고 '문서' 목록의 그 줄을 지운다 | - | 사용자: 지워도 되는지 정한다 |
 | PAGE-8 | codyssey-final-check | G1의 README 필수 5개 항목 목록을 받아 스킬에 넣는다. G1 점검이 그 5개 항목을 확인하면 끝난다 | - | 사용자: 필수 5개 항목 목록을 준다 |
