@@ -6,7 +6,7 @@
 
 상태가 바뀌면 고친다.
 
-`codyssey-final-check` 플러그인을 배포하고 있다. 저장소 점검(`all`, `G1`~`G7`)과 서비스 검증을 쓸 수 있다. G1 README 필수 5개 항목 목록은 사용자에게 받기를 기다린다.
+`codyssey-final-check` v0.7.0을 배포하고 있으며, `docs/plan.md`의 두 단계(저장소 점검 `all`·`G1`~`G7`, 서비스 검증)를 모두 완료해 사용할 수 있다. 공개 라이선스(PAGE-2), `docs/README.md` 삭제 여부(PAGE-3), G1 README 필수 5개 항목 목록(PAGE-8)은 사용자 결정을 기다린다.
 
 ## 진행 중
 
