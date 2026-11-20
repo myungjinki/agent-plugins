@@ -23,7 +23,7 @@ Claude Code와 Codex는 플러그인을 받는 마켓플레이스 형식이 다�
 | 단계 | 결과물 | 완료 기준 |
 |---|---|---|
 | `codyssey-final-check` 저장소 점검 | `all`, `G1`~`G7` 입력 | 플러그인 README '사용법' 표에서 '사용 가능' |
-| `codyssey-final-check` 서비스 검증 | `서비스 검증` 입력 | 플러그인 README '사용법' 표에서 '준비 중'이 '사용 가능'으로 바뀐다 |
+| `codyssey-final-check` 서비스 검증 | `서비스 검증` 입력 | 플러그인 README '사용법' 표에서 '사용 가능' |
 
 ## 정할 것
 
