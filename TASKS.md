@@ -22,10 +22,10 @@
 
 <!-- tasks.py:일회성 시작. 이 표는 GitHub Issues의 사본이다. 고치지 말고 scripts/tasks.py를 쓴다. -->
 
-| 번호 | 구분 | 할 일 | 등급 | 차례 |
-|---|---|---|---|---|
-| PAGE-8 | codyssey-final-check | G1의 README 필수 5개 항목 목록을 받아 스킬에 넣는다. G1 점검이 그 5개 항목을 확인하면 끝난다 (사용자 확인: 필수 5개 항목 목록을 준다) | - | 사용자 |
-| PAGE-3 | 문서 | `docs/README.md`의 용도 설명은 `README.md` '문서' 구역으로 옮겼다. `docs/README.md`를 지우고 '문서' 목록의 그 줄을 지운다 (사용자 확인: 지워도 되는지 정한다) 순서: 20 사용자 답(2026-11-23): docs/README.md 내용이 루트 README에 이미 있으면 지운다. 지우고 README '문서' 목록의 그 줄도 지운다. | 중 | AI |
+| 번호 | 구분 | 할 일 | 등급 | 이슈 | 차례 |
+|---|---|---|---|---|---|
+| PAGE-8 | codyssey-final-check | G1의 README 필수 5개 항목 목록을 받아 스킬에 넣는다. G1 점검이 그 5개 항목을 확인하면 끝난다 (사용자 확인: 필수 5개 항목 목록을 준다) | - | [#11](https://github.com/myungjinki/agent-plugins/issues/11) | 사용자 |
+| PAGE-3 | 문서 | `docs/README.md`의 용도 설명은 `README.md` '문서' 구역으로 옮겼다. `docs/README.md`를 지우고 '문서' 목록의 그 줄을 지운다 (사용자 확인: 지워도 되는지 정한다) 순서: 20 사용자 답(2026-11-23): docs/README.md 내용이 루트 README에 이미 있으면 지운다. 지우고 README '문서' 목록의 그 줄도 지운다. | 중 | [#10](https://github.com/myungjinki/agent-plugins/issues/10) | AI |
 
 <!-- tasks.py:일회성 끝 -->
 
