@@ -3,6 +3,7 @@
 Claude Code와 Codex 사용자가 마켓플레이스(`plugins`) 하나로 받아 쓰는 공개 플러그인 저장소.
 
 지금 상태는 [STATE.md](STATE.md), 할 일은 [TASKS.md](TASKS.md)에 있다.
+동기화된 할 일 표의 `이슈` 열에서 GitHub 이슈를 열 수 있다.
 
 | 플러그인 | 소개 |
 | --- | --- |
