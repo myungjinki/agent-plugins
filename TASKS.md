@@ -22,11 +22,10 @@
 
 <!-- tasks.py:일회성 시작. 이 표는 GitHub Issues의 사본이다. 고치지 말고 scripts/tasks.py를 쓴다. -->
 
-| 번호 | 구분 | 할 일 | 등급 | 이슈 | 차례 |
-|---|---|---|---|---|---|
-| PAGE-8 | codyssey-final-check | G1의 README 필수 5개 항목 목록을 받아 스킬에 넣는다. G1 점검이 그 5개 항목을 확인하면 끝난다 (사용자 확인: 필수 5개 항목 목록을 준다) | - | [#11](https://github.com/myungjinki/agent-plugins/issues/11) | 사용자 |
-| PAGE-21 | 도구 | 공통 할 일 스크립트 v4를 적용하고 열린 할 일을 회사 목표에 잇는다. 1) jk-template 공통 install_tasks.py --diff로 차이를 확인한 뒤 --upgrade로 scripts/와 .github/를 v4(TASKS_SCRIPT_VERSION = 4)로 올린다. 2) TASKS.md 머리말의 add·끝내기·고치기 예시와 '사용자가 바로 시킨 일은…' 문장을 공통 양식과 같은 문장으로 고친다. 이 저장소에만 있는 문장은 그대로 둔다. TASKS.md는 PR에 넣지 않고 주 폴더 기본 브랜치에서 따로 커밋한다. 3) 열린 이슈 전부(등록 시점 2개, 이 할 일 제외)에 목표나 부모를 붙인다. 기준은 사내 지침 docs/01-goals.md 다. G2–G8 가운데 맞는 것, 없으면 G1, 끝나도 전·후에 적을 변화가 없으면 G0이다. 판단이 안 서면 미정으로 두고 이유를 그 이슈 댓글에 적는다. 닫힌 이슈는 고치지 않는다. 4) 공개 저장소다. 비공개 문서의 내용과 회사 목표 문장을 이슈·문서에 옮기지 않고 목표 번호만 쓴다. codyssey 점검 요건 번호 G1–G7은 회사 목표 번호가 아니므로 바꾸지 않는다. 부모 연결은 따로 확인한 뒤 하므로 이 할 일에는 목표 라벨만 쓴다. 5) 주 폴더에서 sync해 TASKS.md·LANDED.md에 '목표' 열이 생기는지 본다. 끝: --diff가 '공통본과 다른 스크립트가 없다'를 출력하고, hook이 알리는 목표 없는 이슈가 없거나 이유가 댓글에 있고, 이 저장소 검증이 통과하며, main에 머지되어 있다. | 중 | [#19](https://github.com/myungjinki/agent-plugins/issues/19) | 대기: 공통 할 일 스크립트 v4 배포 |
-| PAGE-3 | 문서 | `docs/README.md`의 용도 설명은 `README.md` '문서' 구역으로 옮겼다. `docs/README.md`를 지우고 '문서' 목록의 그 줄을 지운다 (사용자 확인: 지워도 되는지 정한다) 순서: 20 사용자 답(2026-11-23): docs/README.md 내용이 루트 README에 이미 있으면 지운다. 지우고 README '문서' 목록의 그 줄도 지운다. | 중 | [#10](https://github.com/myungjinki/agent-plugins/issues/10) | AI |
+| 번호 | 구분 | 할 일 | 등급 | 이슈 | 차례 | 목표 |
+|---|---|---|---|---|---|---|
+| PAGE-8 | codyssey-final-check | G1의 README 필수 5개 항목 목록을 받아 스킬에 넣는다. G1 점검이 그 5개 항목을 확인하면 끝난다 (사용자 확인: 필수 5개 항목 목록을 준다) | - | [#11](https://github.com/myungjinki/agent-plugins/issues/11) | 사용자 | G2 |
+| PAGE-3 | 문서 | `docs/README.md`의 용도 설명은 `README.md` '문서' 구역으로 옮겼다. `docs/README.md`를 지우고 '문서' 목록의 그 줄을 지운다 (사용자 확인: 지워도 되는지 정한다) 순서: 20 사용자 답(2026-11-23): docs/README.md 내용이 루트 README에 이미 있으면 지운다. 지우고 README '문서' 목록의 그 줄도 지운다. | 중 | [#10](https://github.com/myungjinki/agent-plugins/issues/10) | AI | G0 |
 
 <!-- tasks.py:일회성 끝 -->
 
