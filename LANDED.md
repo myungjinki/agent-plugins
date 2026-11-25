@@ -4,15 +4,3 @@
 
 | 번호 | 날짜 | 바뀐 것 | 모델 | 이슈 | 목표 |
 |---|---|---|---|---|---|
-| PAGE-21 | 2026-11-24 | 할 일 스크립트를 v4로 올리고 열린 이슈에 목표 라벨을 붙였다 | Sonnet 5.5 | [#19](https://github.com/myungjinki/agent-plugins/issues/19) | G0 |
-| PAGE-19 | 2026-11-24 | 옛 보고 이름을 새 이름으로 바꿨다 (docs/reports/daily/2026-11-18 제목) | claude-haiku-5-5 | [#17](https://github.com/myungjinki/agent-plugins/issues/17) | - |
-| PAGE-17 | 2026-11-23 | 공통 tasks.py v3을 반영해 할 일 사본에 이슈 링크를 추가하고 기존 훅과 워크플로를 보존했다. | GPT-6.2 Sol | [#15](https://github.com/myungjinki/agent-plugins/issues/15) | - |
-| PAGE-2 | 2026-11-23 | MIT 라이선스 LICENSE 추가, README 라이선스 구역 추가 | Claude Haiku 5.5 | [#9](https://github.com/myungjinki/agent-plugins/issues/9) | - |
-| PAGE-10 | 2026-11-19 | `AGENTS.md` '할 일'에 `등급`과 세션 모델의 등급을 비교해 '맡기는 법'을 따르는 줄을 합쳤다 | Sonnet 5.5 | - | - |
-| PAGE-9 | 2026-11-19 | `TASKS.md`에 `등급` 열, `LANDED.md`에 `모델` 열과 머리말 설명을 더하고 남은 항목에 등급을 매겼으며 이 표를 읽는 스크립트·테스트는 없음을 확인했다 | Sonnet 5.5 | - | - |
-| PAGE-7 | 2026-11-19 | `codyssey-final-check`에 `서비스 검증`(접속, 기능별 3회, 표에 없는 입력 1건, 잘못된 입력 2건)을 더해 '사용 가능'으로 바꿨다 | - | - | - |
-| PAGE-5 | 2026-11-19 | README·AGENTS·`docs/`에 다른 저장소를 분류 폴더 경로나 상대 링크로 부르는 곳이 없음을 확인했다 | - | - | - |
-| PAGE-1 | 2026-11-19 | `TODO.md`의 남은 두 항목을 `TASKS.md`의 PAGE-7·PAGE-8로 옮기고 `TODO.md`를 지웠다 | - | - | - |
-| PAGE-6 | 2026-11-19 | 할 일 번호를 `T-n`에서 티커를 붙인 `PAGE-n`으로 바꿨다 | - | - | - |
-| PAGE-4 | 2026-11-16 | `AGENTS.md` '작업 흐름'에서 푸시를 막는 규칙 줄을 지웠다 | - | - | - |
-| - | 2026-11-12 | `TASKS.md`·`STATE.md`·`docs/README.md`·`LANDED.md`를 만들었다 | - | - | - |
