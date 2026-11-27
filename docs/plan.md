@@ -1,6 +1,6 @@
 # 목표와 계획
 
-이 저장소의 목표·범위·완료 기준과 큰 단계를 적는다. 실행할 개별 작업과 차례는 [TASKS.md](../TASKS.md), 지금 상태는 [STATE.md](../STATE.md), 완료·취소 이력은 [LANDED.md](../LANDED.md)에 기록한다.
+이 저장소의 목표·범위·완료 기준과 큰 단계를 적는다. 실행할 개별 작업과 차례는 이 저장소의 GitHub Issues에, 지금 상태는 [state.md](state.md)에 기록하고, 완료·취소 이력은 `python3 scripts/tasks.py show --closed`로 본다.
 
 ## 배경
 
