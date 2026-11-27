@@ -2,8 +2,7 @@
 
 Claude Code와 Codex 사용자가 마켓플레이스(`plugins`) 하나로 받아 쓰는 공개 플러그인 저장소.
 
-지금 상태는 [STATE.md](STATE.md), 할 일은 [TASKS.md](TASKS.md)에 있다.
-동기화된 할 일 표의 `이슈` 열에서 GitHub 이슈를 열 수 있다.
+지금 상태는 [docs/state.md](docs/state.md)에 있다. 할 일은 이 저장소의 GitHub Issues에 있다.
 
 | 플러그인 | 소개 |
 | --- | --- |
@@ -52,8 +51,7 @@ claude plugin install codyssey-final-check@plugins
 - [목표와 계획](docs/plan.md): 해결할 문제, 목표, 범위, 단계
 - [docs](docs/README.md): `docs/` 폴더의 용도
 - [작업 지침](AGENTS.md): 에이전트가 따르는 저장소 규칙
-- [변경 기록](LANDED.md): 끝나거나 취소한 할 일
-- [흐름 보고](docs/reports/): `docs/reports/<모드>/<기간>/report.md` (최근: [2026-11-18 일간](docs/reports/daily/2026-11-18/report.md)). 과거 보고는 지금의 `STATE.md`와 다를 수 있다
+- [흐름 보고](docs/reports/): `docs/reports/<모드>/<기간>/report.md` (최근: [2026-11-18 일간](docs/reports/daily/2026-11-18/report.md)). 과거 보고는 지금의 `docs/state.md`와 다를 수 있다
 
 ## 라이선스
 
